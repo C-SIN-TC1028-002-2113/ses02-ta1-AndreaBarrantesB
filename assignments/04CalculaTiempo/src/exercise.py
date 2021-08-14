@@ -1,10 +1,10 @@
 def main():
     #escribe tu código abajo de esta línea
-    año1 = int(input("Dame el año actual: "))
-    edad = int(input("Dame tu edad: "))
-    rest = (100-edad)
-    resultado = (rest+año1)
-    print("Cumplirás 100 años en el año:",resultado)
+    miedad = int(input("Dame tu edad: "))
+    miaño = int(input("Dame el año actual: "))
+    opera = (100-miedad)
+    igual = (opera+miaño) 
+    print("Cumplirás 100 años en el año:",igual)
 
 if __name__ == '__main__':
     main()
